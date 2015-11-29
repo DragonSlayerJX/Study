@@ -8,7 +8,7 @@ public class Helloworld {
 		System.out.println(Player.strDescription);
 		
 		Player player = new Player(); //создание экземпляра класса
-		Player player = new Player("Петя");
+		Player player1 = new Player("Петя");
 		
 		System.out.println(player.strName );
 		player.strName = "Игрок1";
